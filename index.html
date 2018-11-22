@@ -3,25 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>UCL Academy</title>
+        <link rel="stylesheet" href="resources/css/reset.css">
         <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script> -->
-        <link rel="stylesheet" href="resources/css/reset.css">
-        <link rel="stylesheet" href="resources/css/style.css">
+        <!-- <link rel="stylesheet" href="resources/css/style.css"> -->
+        <link rel="stylesheet" href="resources/css/style2.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     </head>
     <body>
         <header class="navbar">
-            <div class="logo">
-                <a class="navbar-brand" href="index.html">
-                    <img class="image" src="resources/images/whiteLogo.png" alt="">
-                    <img class="text" src="resources/images/whiteText.png" alt="">
-                </a>
-            </div>
+            <a class="navbar-brand logo" href="index.html">
+                <img class="logo-image" src="resources/images/whiteLogo.png" alt="">
+                <img class="logo-text" src="resources/images/whiteText.png" alt="">
+            </a>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="team.html">Our Team</a>
-                <a href="training.html">Our Training</a>
+                <a href="team.html">Team</a>
+                <a href="training.html">Training</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
@@ -29,17 +28,31 @@
             <div class="jumbo home">
                 <!-- <img src="resources/images/uclLogo_vertical_noBackground.png" alt="UCL logo and Moto"> -->
                 <img src="resources/images/logo_shadow.svg" alt="UCL logo and Moto">
-                <a class="credit"style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@rvgpl?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ravigopal Kesari"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Ravigopal Kesari</span></a>
+                <a class="credit"
+                    style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                    href="https://unsplash.com/@rvgpl?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Download free do whatever you want high-resolution photos from Ravigopal Kesari">
+                    <span style="display:inline-block;padding:2px 3px">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32">
+                            <title>unsplash-logo</title>
+                            <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path>
+                        </svg>
+                    </span>
+                    <span style="display:inline-block;padding:2px 3px">Ravigopal Kesari</span>
+                </a>
             </div>
-
             <div class="content">
 
             </div>
         </div>
         <footer>
-            <a href="https://www.instagram.com/uclacademy/"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://www.instagram.com/uclacademy/">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
             <a href="#">Contact</a>
-            <a href="#">Our Location</a>
+            <a href="#">Location</a>
         </footer>
     </body>
 </html>

@@ -1,0 +1,94 @@
+html {
+    font-family: sans-serif;
+
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #0C0E4E;
+    border-bottom: 1px solid #07AAB4;
+    position: fixed;
+    padding: 0 2rem;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*
+    height: 15vh;
+    justify-content: space-between; */
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+.logo-image{
+    height: 10vh;
+}
+
+.logo-text {
+    height: 5vh;
+    padding-left: 0.5rem;
+}
+
+nav {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* padding-right: 1rem;
+    width: 5vw; */
+}
+
+nav a {
+    width: 100%
+    box-sizing: border-box;
+    padding: 0.25rem;
+    font-size: 1.25rem;
+}
+
+nav a:hover{
+    background-color: #07AAB4;
+}
+
+.container{
+    margin-top: 14vh;
+}
+
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/pitch.svg');
+    background-size: cover;
+}
+
+.jumbo img{
+    height: 70vh;
+}
+
+.credit {
+    position: relative;
+    z-index: 1;
+    align-self: end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0C0E4E;
+    border-bottom: 1px solid #07AAB4;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0.25rem;
+}
